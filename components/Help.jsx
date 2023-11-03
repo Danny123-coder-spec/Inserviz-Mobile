@@ -17,8 +17,8 @@ const Help = () => {
         });
     }
     return (
-        <ScrollView showsHorizontalScrollIndicator={false}>
-            <View style={tw`mt-3 `}>
+        <ScrollView showsVerticalScrollIndicator={false}>
+            <View style={tw`mt-4 `}>
                 {helpData.map((help, index) => {
                     return (
                         <View key={index} style={tw`gap-y-2 pb-2 border-b border-[#00ACEE] border-opacity-50`}>
@@ -45,7 +45,7 @@ const Help = () => {
 
                 <View style={tw`flex flex-row items-center gap-x-2 mt-10`}>
                     <Text>For further enquiry,</Text>
-                    <TouchableOpacity onPress={() => {}}>
+                    <TouchableOpacity onPress={() => navigation.navigate('AI')}>
                         <Text style={tw`text-[#00acee]`}>ask AI chat bot</Text>
                     </TouchableOpacity>
                 </View>
