@@ -6,16 +6,22 @@
         {
           "photosPermission": "The app accesses your photos to let you share them with your friends."
         }
+      ],
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
       ]
     ],
     "name": "Inserviz_Mobile",
     "slug": "Inserviz_Mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/inserviz_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/inserviz_splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -27,7 +33,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/inserviz_adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
