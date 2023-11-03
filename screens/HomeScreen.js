@@ -10,22 +10,29 @@ import OngoingGigs from '../components/OngoingGigs'
 
 const HomeScreen = () => {
     return (
-        <ScrollView showsVerticalScrollIndicator={false}>
-            <SafeAreaView style={tw`m-3 mt-4`}>
-                <Profile />
-                <TotalGigs />
-                <Earnings />
-                <OngoingGigs />
-            </SafeAreaView>
-        </ScrollView>
+        <SafeAreaView style={[tw`px-3 pt-4 pb-4`, styles.home]}>
+
+            <Profile />
+            <ScrollView showsVerticalScrollIndicator={false}>
+                <TotalGigs/>
+                <Earnings/>
+                <OngoingGigs/>
+            </ScrollView>
+
+        </SafeAreaView>
 
     )
 }
 
 const styles = StyleSheet.create({
-    scrollViewContent: {
-        flexGrow: 1,
+    home: {
+        flex: 1,
+        backgroundColor: '#f0f2f5',
+        
     },
+    scroll: {
+        flex: 1
+    }
 });
 
 export default HomeScreen

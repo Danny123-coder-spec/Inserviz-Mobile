@@ -11,4 +11,9 @@ const SavedScreen = () => {
 
 export default SavedScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  saved:{
+    flex:1,
+    backgroundColor:"#f0f2f5",
+  }
+})
