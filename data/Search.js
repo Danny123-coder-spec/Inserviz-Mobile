@@ -1,0 +1,98 @@
+import image from '../assets/ongoing.png'
+import save from '../assets/saved.png'
+
+const searchData = [
+    {  
+        id:1,
+        img:image,
+        title:'Software Developer',
+        amt:'80,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:2,
+        img:image,
+        title:'Software Developer',
+        amt:'80,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:3,
+        img:image,
+        title:'Electrician',
+        amt:'20,000 -50,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:4,
+        img:image,
+        title:'Content Writer',
+        amt:'30,000 - 60,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:5,
+        img:image,
+        title:'Software Engineer',
+        amt:'90,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:6,
+        img:image,
+        title:'Software Developer',
+        amt:'80,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:7,
+        img:image,
+        title:'Software Developer',
+        amt:'80,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:8,
+        img:image,
+        title:'Software Developer',
+        amt:'80,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:9,
+        img:image,
+        title:'Software Developer',
+        amt:'80,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+    {
+        id:10,
+        img:image,
+        title:'Software Developer',
+        amt:'80,000 - 120,000',
+        hours:'Full-Time',
+        button:'See More',
+        icon:save,
+    },
+  
+]
+
+export default searchData
